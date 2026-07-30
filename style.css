@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+nav{
+    margin: 20px;
+    border-radius: 5px;
+    background-color: #1f2937;
+
+    .nav-con{
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+
+        .logo a{
+            color: #fff;
+            text-decoration: none;
+            font-size: large;
+            align-items: center;
+        }
+        .menu{
+            display: flex;
+
+            li{
+                list-style: none;
+                margin: 0 40px;
+
+
+                a{
+                    color: #fff;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}
+
+.main-content{
+    margin: 20px;
+    border-radius: 5px;
+    background-color: #c3c7cd;
+
+    .container .main-con{
+        padding: 20px;
+        display: flex;
+
+        .main-info{
+            p{
+                margin: 20px 0;
+            }
+            a{
+                background-color: #3B82F6;
+                color: #fff;
+                display: inline-block;
+                padding: 10px;
+                text-decoration: none;
+                border-radius: 10px;
+            }
+        }
+
+        .main-con-img img{
+            margin: 0 0 0 10px;
+            width: 300px;
+            height: auto;
+        }
+    }
+}
+
+.main-content-review{
+    margin: 20px;
+    border-radius: 5px;
+    background-color: #c3c7cd;
+
+    .container .main-con{
+        display: flex;
+        padding: 20px;
+
+        .review-img img{
+            margin: 20px 0 0 0;
+        }
+
+        .main-review{
+            margin: 20px;
+            a{
+                background-color: #3B82F6;
+                color: #fff;
+                display: inline-block;
+                padding: 10px;
+                text-decoration: none;
+                border-radius: 10px;
+            }
+            .review{
+                margin: 0 0 20px 0;
+            }
+            .star{
+                margin: 20px 0 0 0;
+            }
+        }
+    }
+}
+
+.footer-top{
+    background-color: #1f2937;
+    margin-top: 2rem;
+    padding: 3rem;
+    align-items: center;
+
+    .footer-top-con .footer-top-item{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 2rem;
+
+        .about-me{
+            color: #fff;
+        }
+        .social{
+            color: #fff;
+        }
+    }
+}
+
+.footer-buttom{
+    background-color: #aeaeae;
+    padding: 1rem;
+    text-align: center;
+}
